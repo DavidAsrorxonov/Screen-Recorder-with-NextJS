@@ -9,8 +9,9 @@ const geistKarla = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "SnapCast",
-  description: "A Screen Sharing App",
+  title: "ScreenCastly",
+  description:
+    "ScreenCastly is a modern full-stack platform that makes capturing and sharing your screen effortless. Whether you’re creating tutorials, product demos, lectures, or just sharing ideas, ScreenCastly lets you record high-quality videos directly from your browser and instantly share them with your audience. With secure cloud storage, customizable privacy settings, and smooth playback on any device, ScreenCastly helps your content reach the right people—fast.",
   icons: {
     icon: "/assets/icons/logo.svg",
   },
