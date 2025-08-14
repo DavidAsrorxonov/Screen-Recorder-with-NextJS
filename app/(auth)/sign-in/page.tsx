@@ -34,7 +34,7 @@ const Page = () => {
             <p>
               "I never thought recording my screen would be so easy!
               ScreenCastly has really helped me create great tutorials for my
-              students." - John D., Teacher
+              students."
             </p>
 
             <article>
@@ -74,8 +74,20 @@ const Page = () => {
             Create and share your very first <span>ScreenCastly Video</span> in
             no time!
           </p>
+
+          <button>
+            <Image
+              src={"/assets/icons/google.svg"}
+              alt="google"
+              width={24}
+              height={24}
+            />
+            <span>Sign in with Google</span>
+          </button>
         </section>
       </aside>
+
+      <div className="overlay" />
     </main>
   );
 };
