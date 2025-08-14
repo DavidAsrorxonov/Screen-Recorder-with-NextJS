@@ -138,7 +138,7 @@ export const dummyCards = [
   },
 ];
 
-const dummyVideoCardData = [
+export const dummyVideoCardData = [
   {
     id: "1",
     title: "SnapChat Message",
